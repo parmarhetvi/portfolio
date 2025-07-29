@@ -1,0 +1,17 @@
+.ball {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4eded30;
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ball::after {
+    content: "🏀";
+    /* You can use , 🎾, 🌍, 😎, etc. */
+}
